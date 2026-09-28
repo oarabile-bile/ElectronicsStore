@@ -11,7 +11,7 @@ package com.mycompany.electronicsstore;
 public abstract class Consoles implements IConsoles {
     private String consoleType;
     private String store;
-    private int totalSales;
+    private int totalSales
 
     // Constructor accepting parameters
     public Consoles(String consoleType, String store, int totalSales) {
@@ -32,7 +32,7 @@ public abstract class Consoles implements IConsoles {
     }
 
     @Override
-    public int getTotalSales() {
+    public int getTotalSales() 
         return totalSales;
     }
 }
